@@ -1,16 +1,16 @@
   
-  //    QUOTIENT & REMAINDER  CALCULATOR    //
+  //    KINETIC   ENERGY   CALCULATOR    //
 
 #include<stdio.h>
 int main(){
-    int a , b;
-    printf("Enter value of a =" );
-    scanf("%d" , &a);
-    printf("Enter value of b =");
-    scanf("%d" , &b);
-     int remainder = a % b;
-     printf("Quotient is : %d \n" , a / b);
-     printf("Remainder is : %d" , a % b);
+    float Mass , Velocity ;
+    printf("Enter Mass =");
+    scanf("%f" , &Mass);
+    
+    printf("Enter Velocity =");
+    scanf("%f" , &Velocity);
+
+    printf("Kinetic_Energy is :%f" , 0.5 * Mass * Velocity ); 
 
     return 0;
 }
